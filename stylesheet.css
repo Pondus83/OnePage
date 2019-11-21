@@ -1,0 +1,57 @@
+#mithovedgrid {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    grid-template-areas:
+        "overskrift overskrift"
+        "mavepine mavepine"
+        "a_billede_vagn a_vagn"
+        ". a_hoved_blog"
+        "a_billede_willy a_willy"
+        ". a_willy_kommentar";
+    }
+
+    
+    #overskrift {
+        text-align: center;
+        grid-area: overskrift;
+        padding: 0.5em;
+    }
+
+    /*Mavepinesektion*/
+    #mavepine {
+        text-align: center;
+        grid-area: mavepine;
+        padding: 0.5em;
+    }
+
+    #a_billede_vagn {
+        grid-area: a_billede_vagn;
+        padding: 0.5em;
+    }
+
+    #a_vagn {
+        grid-area: a_vagn;
+        padding: 0.5em;
+    }
+
+    #a_hoved_blog {
+        grid-area: a_hoved_blog;
+        padding: 0.5em;
+    }
+
+    #a_billede_willy {
+        grid-area: a_billede_willy;
+        padding: 0.5em;
+    }
+
+    #a_willy {
+        grid-area: a_willy;
+        padding: 0.5em;
+    }
+
+    #a_willy_kommentar {
+        grid-area: a_willy_kommentar;
+        padding: 0.5em;
+    }
+
+    /*End på mavepinesektion*/
