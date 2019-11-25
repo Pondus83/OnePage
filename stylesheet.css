@@ -54,7 +54,9 @@
         padding: 0.5em;
     }
 
-    /*End på mavepinesektion*/
+/*End på mavepinesektion*/
+
+/*Start på responsiv til --tablet--*/
 
 @media screen and (min-width: 600px) {
 
@@ -74,3 +76,28 @@
             ". . a_willy_kommentar";
     }
 }
+
+/*Slut på responsiv til --tablet--*/
+
+/*Start på responsiv til --PC--*/
+
+@media screen and (min-width: 1000px) {
+
+    body {
+        background-color: azure;
+    }
+
+    #mithovedgrid {
+        display: grid;
+        grid-template-columns: 150px 75px 1fr;
+        grid-template-areas:
+            ". overskrift overskrift"
+            ". mavepine mavepine"
+            ". a_billede_vagn a_vagn"
+            ". . a_hoved_blog"
+            ". a_billede_willy a_willy"
+            ". . a_willy_kommentar";
+    }
+}
+
+/*Slut på responsiv til --PC--*/
