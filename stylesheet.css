@@ -4,15 +4,17 @@
     padding: 0.5em;
 }
 
+/*Meny*/
+#mavepine {
+    text-align: center;
+    grid-area: meny;
+    padding: 0.5em;
+}
+
 /*Mavepinesektion*/
 #mavepine {
     text-align: center;
     grid-area: mavepine;
-    padding: 0.5em;
-}
-
-#a_billede_vagn {
-    grid-area: a_billede_vagn;
     padding: 0.5em;
 }
 
@@ -21,18 +23,44 @@
     padding: 0.5em;
 }
 
-#a_hoved_blog {
-    grid-area: a_hoved_blog;
-    padding: 0.5em;
-}
-
-#a_billede_willy {
-    grid-area: a_billede_willy;
-    padding: 0.5em;
-}
-
 #a_willy {
     grid-area: a_willy;
+    padding: 0.5em;
+}
+
+#a_boerge {
+    grid-area: a_boerge;
+    padding: 0.5em;
+}
+
+#a_frank {
+    grid-area: a_frank;
+    padding: 0.5em;
+}
+
+#a_vagn_billede {
+    grid-area: a_vagn_billede;
+    padding: 0.5em;
+}
+
+#a_vagn_navn {
+    grid-area: a_vagn_navn;
+    text-align: left;
+    padding: 0.5em;
+}
+
+#a_vagn_kommentar {
+    grid-area: a_vagn_kommentar;
+    padding: 0.5em;
+}
+
+#a_willy_billede {
+    grid-area: a_willy_billede;
+    padding: 0.5em;
+}
+
+#a_willy_navn {
+    grid-area: a_willy_billede;
     padding: 0.5em;
 }
 
@@ -65,26 +93,24 @@
 }
 /*End dårlig lugt sektion*/
 
-/*Grid til mobil*/
+/*----------Grid til mobil-----------*/
 #mithovedgrid {
     display: grid;
-    grid-template-columns: 50px 1fr;
+    grid-template-columns: 50px 50px 1fr;
     grid-template-areas:
-        "overskrift overskrift"
-        "mavepine mavepine"
-        "a_billede_vagn a_vagn"
-        ". a_hoved_blog"
-        "a_billede_willy a_willy"
-        ". a_willy_kommentar"
-        "dårlig_lugt dårlig_lugt"
-        "b_billede_klaus b_klaus"
-        ". b_klaus_kommentar";
+        ". overskrift overskrift"
+        ". mavepine mavepine"
+        ". a_vagn_billede a_vagn_navn"
+        ". a_vagn_kommentar a_vagn_kommentar"
+        ". . a_willy"
+        ". . a_boerge"
+        ". . a_frank";
 }
-/*Slut på grid til mobil*/
+/*-----------Slut på grid til mobil------------*/
 
 
 /*Start på responsiv og grid til --tablet--*/
-@media screen and (min-width: 650px) {
+/* @media screen and (min-width: 650px) {
 
     body {
         background-color: azure;
@@ -96,19 +122,20 @@
         grid-template-areas:
             ". overskrift overskrift ."
             ". mavepine mavepine ."
-            ". a_billede_vagn a_vagn ."
-            ". . a_hoved_blog ."
-            ". a_billede_willy a_willy ."
+            ". a_vagn_billede a_vagn_navn ."
+            ". . a_vagn_kommentar ."
+            ". a_willy_billede a_willy_navn ."
             ". . a_willy_kommentar ."
             ". dårlig_lugt dårlig_lugt ."
             ". b_billede_klaus b_klaus ."
-            ". . b_klaus_kommentar .";
+            ". . b_klaus_kommentar ."
+            ". . meny meny .";
     }
-}
+} */
 /*Slut på responsiv og grid til --tablet--*/
 
 /*Start på responsiv og grid til --PC--*/
-@media screen and (min-width: 1100px) {
+/* @media screen and (min-width: 1100px) {
 
     body {
         background-color: red;
@@ -124,7 +151,8 @@
             ". . a_hoved_blog . a_willy_kommentar ."
             ". dårlig_lugt dårlig_lugt dårlig_lugt dårlig_lugt ."
             ". b_billede_klaus b_klaus . . ."
-            ". . b_klaus_kommentar . . .";
+            ". . b_klaus_kommentar . . ."
+            ". meny meny . . .";
     }
-}
+} */
 /*Slut på responsiv og grid til --PC--*/
