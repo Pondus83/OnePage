@@ -1,64 +1,90 @@
+#overskrift {
+    text-align: center;
+    grid-area: overskrift;
+    padding: 0.5em;
+}
+
+/*Mavepinesektion*/
+#mavepine {
+    text-align: center;
+    grid-area: mavepine;
+    padding: 0.5em;
+}
+
+#a_billede_vagn {
+    grid-area: a_billede_vagn;
+    padding: 0.5em;
+}
+
+#a_vagn {
+    grid-area: a_vagn;
+    padding: 0.5em;
+}
+
+#a_hoved_blog {
+    grid-area: a_hoved_blog;
+    padding: 0.5em;
+}
+
+#a_billede_willy {
+    grid-area: a_billede_willy;
+    padding: 0.5em;
+}
+
+#a_willy {
+    grid-area: a_willy;
+    padding: 0.5em;
+}
+
+#a_willy_kommentar {
+    grid-area: a_willy_kommentar;
+    padding: 0.5em;
+}
+/*End på mavepinesektion*/
+
+/*Dårlig lugt sektion*/
+#dårlig_lugt {
+    text-align: center;
+    grid-area: dårlig_lugt;
+    padding: 0.5em;
+}
+
+#b_billede_klaus {
+    grid-area: b_billede_klaus;
+    padding: 0.5em;
+}
+
+#b_klaus {
+    grid-area: b_klaus;
+    padding: 0.5em;
+}
+
+#b_klaus_kommentar {
+    grid-area: b_klaus_kommentar;
+    padding: 0.5em;
+}
+/*End dårlig lugt sektion*/
+
+/*Grid til mobil*/
 #mithovedgrid {
     display: grid;
-    grid-template-columns: 75px 1fr;
+    grid-template-columns: 50px 1fr;
     grid-template-areas:
         "overskrift overskrift"
         "mavepine mavepine"
         "a_billede_vagn a_vagn"
         ". a_hoved_blog"
         "a_billede_willy a_willy"
-        ". a_willy_kommentar";
-    }
+        ". a_willy_kommentar"
+        "dårlig_lugt dårlig_lugt"
+        "b_billede_klaus b_klaus"
+        ". b_klaus_kommentar";
+}
+/*Slut på grid til mobil*/
 
-    
-    #overskrift {
-        text-align: center;
-        grid-area: overskrift;
-        padding: 0.5em;
-    }
 
-    /*Mavepinesektion*/
-    #mavepine {
-        text-align: center;
-        grid-area: mavepine;
-        padding: 0.5em;
-    }
-
-    #a_billede_vagn {
-        grid-area: a_billede_vagn;
-        padding: 0.5em;
-    }
-
-    #a_vagn {
-        grid-area: a_vagn;
-        padding: 0.5em;
-    }
-
-    #a_hoved_blog {
-        grid-area: a_hoved_blog;
-        padding: 0.5em;
-    }
-
-    #a_billede_willy {
-        grid-area: a_billede_willy;
-        padding: 0.5em;
-    }
-
-    #a_willy {
-        grid-area: a_willy;
-        padding: 0.5em;
-    }
-
-    #a_willy_kommentar {
-        grid-area: a_willy_kommentar;
-        padding: 0.5em;
-    }
-
-/*End på mavepinesektion*/
-
-/*Start på responsiv til --tablet--*/
-
-@media screen and (min-width: 600px) {
+/*Start på responsiv og grid til --tablet--*/
+@media screen and (min-width: 650px) {
 
     body {
         background-color: azure;
@@ -66,38 +92,39 @@
 
     #mithovedgrid {
         display: grid;
-        grid-template-columns: 150px 75px 1fr;
+        grid-template-columns: 1fr 50px 525px 1fr;
         grid-template-areas:
-            ". overskrift overskrift"
-            ". mavepine mavepine"
-            ". a_billede_vagn a_vagn"
-            ". . a_hoved_blog"
-            ". a_billede_willy a_willy"
-            ". . a_willy_kommentar";
+            ". overskrift overskrift ."
+            ". mavepine mavepine ."
+            ". a_billede_vagn a_vagn ."
+            ". . a_hoved_blog ."
+            ". a_billede_willy a_willy ."
+            ". . a_willy_kommentar ."
+            ". dårlig_lugt dårlig_lugt ."
+            ". b_billede_klaus b_klaus ."
+            ". . b_klaus_kommentar .";
     }
 }
+/*Slut på responsiv og grid til --tablet--*/
 
-/*Slut på responsiv til --tablet--*/
-
-/*Start på responsiv til --PC--*/
-
-@media screen and (min-width: 1000px) {
+/*Start på responsiv og grid til --PC--*/
+@media screen and (min-width: 1100px) {
 
     body {
-        background-color: azure;
+        background-color: red;
     }
 
     #mithovedgrid {
         display: grid;
-        grid-template-columns: 150px 75px 1fr;
+        grid-template-columns: 1fr 50px 450px 50px 450px 1fr;
         grid-template-areas:
-            ". overskrift overskrift"
-            ". mavepine mavepine"
-            ". a_billede_vagn a_vagn"
-            ". . a_hoved_blog"
-            ". a_billede_willy a_willy"
-            ". . a_willy_kommentar";
+            ". overskrift overskrift overskrift overskrift ."
+            ". mavepine mavepine mavepine mavepine ."
+            ". a_billede_vagn a_vagn a_billede_willy a_willy ."
+            ". . a_hoved_blog . a_willy_kommentar ."
+            ". dårlig_lugt dårlig_lugt dårlig_lugt dårlig_lugt ."
+            ". b_billede_klaus b_klaus . . ."
+            ". . b_klaus_kommentar . . .";
     }
 }
-
-/*Slut på responsiv til --PC--*/
+/*Slut på responsiv og grid til --PC--*/
