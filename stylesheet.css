@@ -16,12 +16,20 @@
     grid-area: mavepine;
 }
 
-#a_vagn {
-    grid-area: a_vagn;
+#a_vagn_1 {
+    grid-area: a_vagn_1;
 }
 
-#a_willy {
-    grid-area: a_willy;
+#a_vagn_2 {
+    grid-area: a_vagn_2;
+}
+
+#a_willy_1 {
+    grid-area: a_willy_1;
+}
+
+#a_willy_2 {
+    grid-area: a_willy_2;
 }
 
 #a_boerge {
@@ -107,14 +115,14 @@
     grid-template-areas:
         ". overskrift"
         ". mavepine"
-        ". a_vagn"
-        ". a_willy"
-        ". a_boerge"
-        ". a_frank"
+        ". a_vagn_1"
+        ". a_willy_1"
+        ". a_vagn_2"
+        ". a_willy_2"
 ;
 }
 
-#a_vagn {
+#a_vagn_1 {
     display: grid;
     grid-template-columns: 50px 1fr;
     grid-template-areas:
