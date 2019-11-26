@@ -62,9 +62,9 @@ h1 {
 #a_willy_kommentar_2 {
     grid-area: a_willy_kommentar_2;
 }
-/*End på mavepinesektion---------------------------------*/
+/*End på mavepinesektion-------------------------------------------------------*/
 
-/*Dårlig lugt sektion-----------------------------------*/
+/*Dårlig lugt sektion----------------------------------------------------------*/
 #dårlig_lugt {
     text-align: center;
     grid-area: dårlig_lugt;
@@ -81,9 +81,9 @@ h1 {
 #b_klaus_kommentar {
     grid-area: b_klaus_kommentar;
 }
-/*End dårlig lugt sektion----------------------------------*/
+/*End dårlig lugt sektion-----------------------------------------------------*/
 
-/*-----------Grid til mobil--------------------------------*/
+/*-----------Grid til mobil---------------------------------------------------*/
 #hovedgrid {
     display: grid;
     grid-template-columns: 50px 1fr 50px;
@@ -138,8 +138,7 @@ h1 {
         "a_willy_billede a_willy_navn"
         "a_willy_kommentar_2 a_willy_kommentar_2"
         ;
-}
-/*-----------Slut på grid til mobil------------*/
+}/*-----------Slut på grid til mobil----------------------------------------*/
 
 
 /*Start på responsiv og grid til --tablet--*/
@@ -149,21 +148,6 @@ h1 {
         background-color: azure;
     }
 
-    #mithovedgrid {
-        display: grid;
-        grid-template-columns: 1fr 50px 525px 1fr;
-        grid-template-areas:
-            ". overskrift overskrift ."
-            ". mavepine mavepine ."
-            ". a_vagn_billede a_vagn_navn ."
-            ". . a_vagn_kommentar ."
-            ". a_willy_billede a_willy_navn ."
-            ". . a_willy_kommentar ."
-            ". dårlig_lugt dårlig_lugt ."
-            ". b_billede_klaus b_klaus ."
-            ". . b_klaus_kommentar ."
-            ". . meny meny .";
-    }
 } */
 /*Slut på responsiv og grid til --tablet--*/
 
@@ -174,18 +158,5 @@ h1 {
         background-color: red;
     }
 
-    #mithovedgrid {
-        display: grid;
-        grid-template-columns: 1fr 50px 450px 50px 450px 1fr;
-        grid-template-areas:
-            ". overskrift overskrift overskrift overskrift ."
-            ". mavepine mavepine mavepine mavepine ."
-            ". a_billede_vagn a_vagn a_billede_willy a_willy ."
-            ". . a_hoved_blog . a_willy_kommentar ."
-            ". dårlig_lugt dårlig_lugt dårlig_lugt dårlig_lugt ."
-            ". b_billede_klaus b_klaus . . ."
-            ". . b_klaus_kommentar . . ."
-            ". meny meny . . .";
-    }
 } */
 /*Slut på responsiv og grid til --PC--*/
