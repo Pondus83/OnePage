@@ -1,21 +1,15 @@
-/*Overskrift*/
-#overskrift {
+/*Header----------------------------------------------------------*/
+h1 {
     text-align: center;
-    grid-area: overskrift;
 }
 
-/*Meny*/
-/* #meny {
-    text-align: center;
-    grid-area: meny;
-} */
-
-/*Mavepinesektion*/
+/*Hovedgrid-------------------------------------------------------*/
 #mavesection {
-    border-color: black;
-    border-width: 5em;
+    grid-area: mavesection;
+
 }
 
+/*Mavepinesektion-------------------------------------------------*/
 #mavepine {
     text-align: center;
     grid-area: mavepine;
@@ -50,7 +44,7 @@
 }
 
 #a_vagn_kommentar_2 {
-    grid-area: a_vagn_kommentar_;
+    grid-area: a_vagn_kommentar_2;
 }
 
 #a_willy_billede {
@@ -68,11 +62,10 @@
 #a_willy_kommentar_2 {
     grid-area: a_willy_kommentar_2;
 }
+/*End på mavepinesektion---------------------------------*/
 
-/*End på mavepinesektion*/
-
-/*Dårlig lugt sektion*/
-/* #dårlig_lugt {
+/*Dårlig lugt sektion-----------------------------------*/
+#dårlig_lugt {
     text-align: center;
     grid-area: dårlig_lugt;
 }
@@ -87,21 +80,28 @@
 
 #b_klaus_kommentar {
     grid-area: b_klaus_kommentar;
-} */
-/*End dårlig lugt sektion*/
+}
+/*End dårlig lugt sektion----------------------------------*/
 
-/*-----------Grid til mobil--------------------*/
-#mithovedgrid {
+/*-----------Grid til mobil--------------------------------*/
+#hovedgrid {
     display: grid;
-    grid-template-columns: 50px 1fr;
+    grid-template-columns: 50px 1fr 50px;
     grid-template-areas:
-        ". overskrift"
-        ". mavepine"
-        ". a_vagn_1"
-        ". a_willy_1"
-        ". a_vagn_2"
-        ". a_willy_2"
-;
+        ". mavesection ."
+        ;
+}
+
+#mavesection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "mavepine"
+        "a_vagn_1"
+        "a_willy_1"
+        "a_vagn_2"
+        "a_willy_2"
+        ;
 }
 
 #a_vagn_1 {
