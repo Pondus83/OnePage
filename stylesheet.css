@@ -11,6 +11,11 @@
 } */
 
 /*Mavepinesektion*/
+#mavesection {
+    border-color: black;
+    border-width: 5em;
+}
+
 #mavepine {
     text-align: center;
     grid-area: mavepine;
@@ -32,14 +37,6 @@
     grid-area: a_willy_2;
 }
 
-#a_boerge {
-    grid-area: a_boerge;
-}
-
-#a_frank {
-    grid-area: a_frank;
-}
-
 #a_vagn_billede {
     grid-area: a_vagn_billede;
 }
@@ -48,8 +45,12 @@
     grid-area: a_vagn_navn;
 }
 
-#a_vagn_kommentar {
-    grid-area: a_vagn_kommentar;
+#a_vagn_kommentar_1 {
+    grid-area: a_vagn_kommentar_1;
+}
+
+#a_vagn_kommentar_2 {
+    grid-area: a_vagn_kommentar_;
 }
 
 #a_willy_billede {
@@ -60,33 +61,14 @@
     grid-area: a_willy_navn;
 }
 
-#a_willy_kommentar {
-    grid-area: a_willy_kommentar;
+#a_willy_kommentar_1 {
+    grid-area: a_willy_kommentar_1;
 }
 
-#a_boerge_billede {
-    grid-area: a_boerge_billede;
+#a_willy_kommentar_2 {
+    grid-area: a_willy_kommentar_2;
 }
 
-#a_boerge_navn {
-    grid-area: a_boerge_navn;
-}
-
-#a_boerge_kommentar {
-    grid-area: a_boerge_kommentar;
-}
-
-#a_frank_billede {
-    grid-area: a_frank_billede;
-}
-
-#a_frank_navn {
-    grid-area: a_frank_navn;
-}
-
-#a_frank_kommentar {
-    grid-area: a_frank_kommentar;
-}
 /*End på mavepinesektion*/
 
 /*Dårlig lugt sektion*/
@@ -127,34 +109,34 @@
     grid-template-columns: 50px 1fr;
     grid-template-areas:
         "a_vagn_billede a_vagn_navn"
-        "a_vagn_kommentar a_vagn_kommentar"
+        "a_vagn_kommentar_1 a_vagn_kommentar_1"
         ;
 }
 
-#a_willy {
+#a_willy_1 {
     display: grid;
     grid-template-columns: 50px 1fr;
     grid-template-areas:
         "a_willy_billede a_willy_navn"
-        "a_willy_kommentar a_willy_kommentar"
+        "a_willy_kommentar_1 a_willy_kommentar_1"
         ;
 }
 
-#a_boerge {
+#a_vagn_2 {
     display: grid;
     grid-template-columns: 50px 1fr;
     grid-template-areas:
-        "a_boerge_billede a_boerge_navn"
-        "a_boerge_kommentar a_boerge_kommentar"
+        "a_vagn_billede a_vagn_navn"
+        "a_vagn_kommentar_2 a_vagn_kommentar_2"
         ;
 }
 
-#a_frank {
+#a_willy_2 {
     display: grid;
     grid-template-columns: 50px 1fr;
     grid-template-areas:
-        "a_frank_billede a_frank_navn"
-        "a_frank_kommentar a_frank_kommentar"
+        "a_willy_billede a_willy_navn"
+        "a_willy_kommentar_2 a_willy_kommentar_2"
         ;
 }
 /*-----------Slut på grid til mobil------------*/
