@@ -1,14 +1,11 @@
-/*Overskrift*/
-#overskrift {
+/*Header*/
+h1 {
     text-align: center;
-    grid-area: overskrift;
 }
 
-/*Meny*/
-/* #meny {
-    text-align: center;
-    grid-area: meny;
-} */
+#
+
+
 
 /*Mavepinesektion*/
 #mavesection {
@@ -50,7 +47,7 @@
 }
 
 #a_vagn_kommentar_2 {
-    grid-area: a_vagn_kommentar_;
+    grid-area: a_vagn_kommentar_2;
 }
 
 #a_willy_billede {
@@ -91,11 +88,18 @@
 /*End dårlig lugt sektion*/
 
 /*-----------Grid til mobil--------------------*/
-#mithovedgrid {
+#hovedgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "mavesection"
+;
+}
+
+#mavesection {
     display: grid;
     grid-template-columns: 50px 1fr;
     grid-template-areas:
-        ". overskrift"
         ". mavepine"
         ". a_vagn_1"
         ". a_willy_1"
