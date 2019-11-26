@@ -1,72 +1,59 @@
 #overskrift {
     text-align: center;
     grid-area: overskrift;
-    padding: 0.5em;
 }
 
 /*Meny*/
 #mavepine {
     text-align: center;
     grid-area: meny;
-    padding: 0.5em;
 }
 
 /*Mavepinesektion*/
 #mavepine {
     text-align: center;
     grid-area: mavepine;
-    padding: 0.5em;
 }
 
 #a_vagn {
     grid-area: a_vagn;
-    padding: 0.5em;
 }
 
 #a_willy {
     grid-area: a_willy;
-    padding: 0.5em;
 }
 
 #a_boerge {
     grid-area: a_boerge;
-    padding: 0.5em;
 }
 
 #a_frank {
     grid-area: a_frank;
-    padding: 0.5em;
 }
 
 #a_vagn_billede {
     grid-area: a_vagn_billede;
-    padding: 0.5em;
 }
 
 #a_vagn_navn {
     grid-area: a_vagn_navn;
     text-align: left;
-    padding: 0.5em;
 }
 
 #a_vagn_kommentar {
     grid-area: a_vagn_kommentar;
-    padding: 0.5em;
 }
 
 #a_willy_billede {
     grid-area: a_willy_billede;
-    padding: 0.5em;
 }
 
 #a_willy_navn {
     grid-area: a_willy_billede;
-    padding: 0.5em;
 }
 
 #a_willy_kommentar {
     grid-area: a_willy_kommentar;
-    padding: 0.5em;
 }
 /*End på mavepinesektion*/
 
@@ -74,37 +61,48 @@
 #dårlig_lugt {
     text-align: center;
     grid-area: dårlig_lugt;
-    padding: 0.5em;
 }
 
 #b_billede_klaus {
     grid-area: b_billede_klaus;
-    padding: 0.5em;
 }
 
 #b_klaus {
     grid-area: b_klaus;
-    padding: 0.5em;
 }
 
 #b_klaus_kommentar {
     grid-area: b_klaus_kommentar;
-    padding: 0.5em;
 }
 /*End dårlig lugt sektion*/
 
-/*----------Grid til mobil-----------*/
+/*-----------Grid til mobil--------------------*/
 #mithovedgrid {
     display: grid;
-    grid-template-columns: 50px 50px 1fr;
+    grid-template-columns: 50px 1fr;
     grid-template-areas:
-        ". overskrift overskrift"
-        ". mavepine mavepine"
-        ". a_vagn_billede a_vagn_navn"
-        ". a_vagn_kommentar a_vagn_kommentar"
-        ". . a_willy"
-        ". . a_boerge"
-        ". . a_frank";
+        ". overskrift"
+        ". mavepine"
+        ". a_vagn"
+        ". a_willy"
+        ;
+}
+
+#a_vagn {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "a_vagn_billede a_vagn_navn"
+        "a_vagn_kommentar a_vagn_kommentar"
+        ;
+}
+
+#a_willy {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "a_willy_billede a_willy_navn"
+        "a_willy_kommentar a_willy_kommentar";
 }
 /*-----------Slut på grid til mobil------------*/
 
