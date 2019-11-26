@@ -1,13 +1,14 @@
+/*Overskrift*/
 #overskrift {
     text-align: center;
     grid-area: overskrift;
 }
 
 /*Meny*/
-#mavepine {
+/* #meny {
     text-align: center;
     grid-area: meny;
-}
+} */
 
 /*Mavepinesektion*/
 #mavepine {
@@ -37,7 +38,6 @@
 
 #a_vagn_navn {
     grid-area: a_vagn_navn;
-    text-align: left;
 }
 
 #a_vagn_kommentar {
@@ -49,16 +49,40 @@
 }
 
 #a_willy_navn {
-    grid-area: a_willy_billede;
+    grid-area: a_willy_navn;
 }
 
 #a_willy_kommentar {
     grid-area: a_willy_kommentar;
 }
+
+#a_boerge_billede {
+    grid-area: a_boerge_billede;
+}
+
+#a_boerge_navn {
+    grid-area: a_boerge_navn;
+}
+
+#a_boerge_kommentar {
+    grid-area: a_boerge_kommentar;
+}
+
+#a_frank_billede {
+    grid-area: a_frank_billede;
+}
+
+#a_frank_navn {
+    grid-area: a_frank_navn;
+}
+
+#a_frank_kommentar {
+    grid-area: a_frank_kommentar;
+}
 /*End på mavepinesektion*/
 
 /*Dårlig lugt sektion*/
-#dårlig_lugt {
+/* #dårlig_lugt {
     text-align: center;
     grid-area: dårlig_lugt;
 }
@@ -73,7 +97,7 @@
 
 #b_klaus_kommentar {
     grid-area: b_klaus_kommentar;
-}
+} */
 /*End dårlig lugt sektion*/
 
 /*-----------Grid til mobil--------------------*/
@@ -85,7 +109,9 @@
         ". mavepine"
         ". a_vagn"
         ". a_willy"
-        ;
+        ". a_boerge"
+        ". a_frank"
+;
 }
 
 #a_vagn {
@@ -102,7 +128,26 @@
     grid-template-columns: 50px 1fr;
     grid-template-areas:
         "a_willy_billede a_willy_navn"
-        "a_willy_kommentar a_willy_kommentar";
+        "a_willy_kommentar a_willy_kommentar"
+        ;
+}
+
+#a_boerge {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "a_boerge_billede a_boerge_navn"
+        "a_boerge_kommentar a_boerge_kommentar"
+        ;
+}
+
+#a_frank {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "a_frank_billede a_frank_navn"
+        "a_frank_kommentar a_frank_kommentar"
+        ;
 }
 /*-----------Slut på grid til mobil------------*/
 
