@@ -141,22 +141,22 @@ h1 {
 }/*-----------Slut på grid til mobil----------------------------------------*/
 
 
-/*Start på responsiv og grid til --tablet--*/
-/* @media screen and (min-width: 650px) {
+/*Start på responsiv og grid til --tablet-----------------------------------*/
+@media screen and (min-width: 650px) {
 
     body {
         background-color: azure;
     }
 
-} */
-/*Slut på responsiv og grid til --tablet--*/
+}
+/*Slut på responsiv og grid til --tablet-------------------------------------*/
 
-/*Start på responsiv og grid til --PC--*/
-/* @media screen and (min-width: 1100px) {
+/*Start på responsiv og grid til --PC----------------------------------------*/
+@media screen and (min-width: 1100px) {
 
     body {
         background-color: red;
     }
 
-} */
-/*Slut på responsiv og grid til --PC--*/
+}
+/*Slut på responsiv og grid til --PC------------------------------------------*/
