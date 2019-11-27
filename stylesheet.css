@@ -4,6 +4,7 @@ header {
 }
 h2 {
     text-align: center;
+    
 }
 footer {
     text-align: center;
@@ -672,13 +673,13 @@ body {
     }
     #hovedgrid {
         display: grid;
-        grid-template-columns: 140px 500px 1fr;
+        grid-template-columns: 1fr 150px 500px 1fr;
         grid-template-areas:
-            "menu mavesection ."
-            "menu lugt ."
-            "menu dead ."
-            "menu rent ."
-            "menu mad ."
+            ". menu mavesection ."
+            ". menu lugt ."
+            ". menu dead ."
+            ". menu rent ."
+            ". menu mad ."
         ;
     }
     .navbar {
@@ -691,7 +692,6 @@ body {
     .navbar a {
         width: 100%;
         float: none;
-        display: block;
     }
 }
 /*Slut på responsiv og grid til --tablet-------------------------------------*/
