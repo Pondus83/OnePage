@@ -732,6 +732,31 @@ body {
         background-color: black;
         display:grid;
         grid-template-areas:"Pc";
-    }
+    }        
+    .navbar {
+        width: 100%;
+        background-color: #555;
+        overflow: auto;
+      }
+      .navbar a {
+        float: left;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+        width: 25%;
+        text-align: center;}
+
+        .navbar a:hover {
+            background-color: #acaf50;
+        }
+        @media screen and (max-width: 500px;){
+            .navbar {
+                float: none;
+                display: block;
+                width: 100%;
+                text-align: left;
+            }
+        }
 }
 /*Slut på responsiv og grid til --PC------------------------------------------*/
