@@ -671,11 +671,11 @@ body {
         display: grid;
         grid-template-columns: 140px 500px 1fr;
         grid-template-areas:
-            ". mavesection ."
-            ". lugt ."
-            ". dead ."
-            ". rent ."
-            ". mad ."
+            "menu mavesection ."
+            "menu lugt ."
+            "menu dead ."
+            "menu rent ."
+            "menu mad ."
         ;
     }
     .navbar {
