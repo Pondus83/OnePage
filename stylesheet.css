@@ -6,9 +6,6 @@ h2 {
     text-align: center;
     
 }
-footer {
-    text-align: center;
-}
 body {
     /* background-color: #d1ccc6; */
     /* background: radial-gradient(url(baggrund.JPG) 70%, transparent 75%); */
@@ -24,7 +21,10 @@ body {
     padding: 10px;
     margin: 10px;
 }
-
+footer {
+    text-align: center;
+    margin: 20px;
+}
 /*Hovedgrid-------------------------------------------------------*/
 #mavesection {
     grid-area: mavesection;
