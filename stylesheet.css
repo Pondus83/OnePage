@@ -731,6 +731,10 @@ body {
             ". . e_klaus_3"
             ;
     }
-    
+    #menu {
+        background-color: black;
+        display:grid;
+        grid-template-areas:"Pc";
+    }
 }
 /*Slut på responsiv og grid til --PC------------------------------------------*/
