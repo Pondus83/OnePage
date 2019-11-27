@@ -8,6 +8,7 @@ h2 {
 footer {
     text-align: center;
 }
+<<<<<<< HEAD
 body {
     /* background-color: #d1ccc6; */
     /* background: radial-gradient(url(baggrund.JPG) 70%, transparent 75%); */
@@ -24,10 +25,14 @@ body {
     padding: 10px;
     margin: 10px;
 }
+=======
+
+>>>>>>> parent of ebb7e5a... PC version med felter
 /*Hovedgrid-------------------------------------------------------*/
 #mavesection {
     grid-area: mavesection;
 }
+
 #lugt {
     grid-area: lugt;
 }
@@ -662,10 +667,14 @@ body {
 
 /*Start på responsiv og grid til --PC----------------------------------------*/
 @media screen and (min-width: 1100px) {
+<<<<<<< HEAD
+=======
+    body {
+        background-color: red;
+    }
+>>>>>>> parent of ebb7e5a... PC version med felter
     h2 {
-        text-align: left;
-        padding: 10px;
-        margin: 10px;
+        text-align: center;
     }
     #hovedgrid {
         display: grid;
@@ -683,6 +692,7 @@ body {
         grid-template-columns: 450px 1fr 450px;
     }
     #mavesection {
+        background-color: green;
         display: grid;
         grid-template-areas:
             "mavepine mavepine mavepine"
@@ -692,6 +702,7 @@ body {
             ;
     }
     #lugt {
+        background-color: purple;
         display: grid;
         grid-template-areas:
             "daerlig_lugt daerlig_lugt daerlig_lugt"
@@ -701,6 +712,7 @@ body {
             ;
     }
     #dead {
+        background-color: yellow;
         display: grid;
         grid-template-areas:
             "doedsfald doedsfald doedsfald"
@@ -711,6 +723,7 @@ body {
             ;
     }
     #rent {
+        background-color: blue;
         display: grid;
         grid-template-areas:
             "rent_blod rent_blod rent_blod"
@@ -721,6 +734,7 @@ body {
             ;
     }
     #mad {
+        background-color: brown;
         display: grid;
         grid-template-areas:
             "madforgiftning madforgiftning madforgiftning"
