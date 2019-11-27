@@ -685,9 +685,8 @@ body {
         /* z-index: 1; Stay on top */
         /* top: 0; */
         left: 0;
-        background-color: #111; /* Black */
-        overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 20px;
+        background-color: #111;
+        padding-top: 50px;
     }
     .navbar a {
         width: 100%;
@@ -706,10 +705,11 @@ body {
     }
     .navbar {
         width: 1050px;
-        height: 50px;
-        position: fixed;
-        overflow: auto;
-        top: 0;
+        height: auto;
+        /* overflow: auto; */
+        top: auto;
+        left: auto;
+        padding: 0px;
     }
     .navbar a {
         float: left;
