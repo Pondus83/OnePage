@@ -697,7 +697,10 @@ body {
         margin: 10px;
     }
     .navbar {
-        width: 100%;
+        width: 1050px;
+        height: 50px;
+        position: fixed;
+        overflow: auto;
     }
     .navbar a {
         float: left;
@@ -767,6 +770,5 @@ body {
             ". . e_klaus_3"
             ;
     }
-
 }
 /*Slut på responsiv og grid til --PC------------------------------------------*/
