@@ -616,10 +616,8 @@ footer {
 /*-------------------------End Madforgiftning------------------------------*/
 /*-----------Slut på grid til mobil----------------------------------------*/
 
-
-/*Start på responsiv og grid til --tablet-----------------------------------*/
+/*Start på responsiv og grid til --tablet----------------------------------*/
 @media screen and (min-width: 680px) {
-
     body {
         background-color: blue;
     }
@@ -641,21 +639,27 @@ footer {
 /*Slut på responsiv og grid til --tablet-------------------------------------*/
 
 /*Start på responsiv og grid til --PC----------------------------------------*/
-/* @media screen and (min-width: 1100px) {
-
+@media screen and (min-width: 1100px) {
     body {
         background-color: red;
     }
-
+    h2 {
+        text-align: center;
+    }
     #hovedgrid {
         display: grid;
         grid-template-columns: 1fr 1050px 1fr;
         grid-template-areas:
+            ". meny ."
             ". mavesection ."
+            ". lugt ."
+            ". dead ."
+            ". rent ."
+            ". mad ."
             ;
     }
-
     #mavesection {
+        background-color: green;
         display: grid;
         grid-template-columns: 500px 1fr 500px;
         grid-template-areas:
@@ -665,5 +669,53 @@ footer {
             ". . a_willy_2"
             ;
     }
-} */
+    #lugt {
+        background-color: purple;
+        display: grid;
+        grid-template-columns: 500px 1fr 500px;
+        grid-template-areas:
+            "daerlig_lugt daerlig_lugt daerlig_lugt"
+            "b_klaus_1 . b_edward"
+            ". . b_caroline"
+            ". . b_klaus_2"
+            ;
+    }
+    #dead {
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: 500px 1fr 500px;
+        grid-template-areas:
+            "doedsfald doedsfald doedsfald"
+            "c_elena_1 . c_elijah_1"
+            ". . c_elena_2"
+            ". . c_elijah_2"
+            ". . c_elena_3"
+            ;
+    }
+    #rent {
+        background-color: blue;
+        display: grid;
+        grid-template-columns: 500px 1fr 500px;
+        grid-template-areas:
+            "rent_blod rent_blod rent_blod"
+            "d_stefan_1. d_damon_1"
+            ". . d_caroline_2"
+            ". . d_stefan_2"
+            ". . d_damon_2"
+            ;
+    }
+    #mad {
+        background-color: brown;
+        display: grid;
+        grid-template-columns: 500px 1fr 500px;
+        grid-template-areas:
+            "madforgiftning madforgiftning madforgiftning"
+            "e_damon_3 . e_elena_4"
+            ". . e_damon_4"
+            ". . e_caroline_3"
+            ". . e_elijah_3"
+            ". . e_klaus_3"
+            ;
+    }
+}
 /*Slut på responsiv og grid til --PC------------------------------------------*/
