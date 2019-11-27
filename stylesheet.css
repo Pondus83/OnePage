@@ -336,6 +336,16 @@ footer {
 }
 /*End Madforgiftning sektion-------------------------------------------------*/
 
+/*-----------Grid reset---------------------------------------------------*/
+#mavesection, #lugt, #dead, #rent, #mad {
+    border-style: solid;
+    border-width: 7px;
+    margin: 20px;
+    padding: 20px;
+}
+
+/*-----------End Grid reset---------------------------------------------------*/
+
 /*-----------Grid til mobil---------------------------------------------------*/
 #hovedgrid {
     display: grid;
@@ -658,10 +668,12 @@ footer {
             ". mad ."
             ;
     }
+    #mavesection, #lugt, #dead, #rent, #mad {
+        grid-template-columns: 450px 1fr 450px;
+    }
     #mavesection {
         background-color: green;
         display: grid;
-        grid-template-columns: 500px 1fr 500px;
         grid-template-areas:
             "mavepine mavepine mavepine"
             "a_vagn_1 . a_willy_1"
@@ -672,7 +684,6 @@ footer {
     #lugt {
         background-color: purple;
         display: grid;
-        grid-template-columns: 500px 1fr 500px;
         grid-template-areas:
             "daerlig_lugt daerlig_lugt daerlig_lugt"
             "b_klaus_1 . b_edward"
@@ -683,7 +694,6 @@ footer {
     #dead {
         background-color: yellow;
         display: grid;
-        grid-template-columns: 500px 1fr 500px;
         grid-template-areas:
             "doedsfald doedsfald doedsfald"
             "c_elena_1 . c_elijah_1"
@@ -695,7 +705,6 @@ footer {
     #rent {
         background-color: blue;
         display: grid;
-        grid-template-columns: 500px 1fr 500px;
         grid-template-areas:
             "rent_blod rent_blod rent_blod"
             "d_stefan_1. d_damon_1"
@@ -707,7 +716,6 @@ footer {
     #mad {
         background-color: brown;
         display: grid;
-        grid-template-columns: 500px 1fr 500px;
         grid-template-areas:
             "madforgiftning madforgiftning madforgiftning"
             "e_damon_3 . e_elena_4"
