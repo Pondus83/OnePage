@@ -669,22 +669,30 @@ body {
     }
     #hovedgrid {
         display: grid;
-        grid-template-columns: 1fr 150px 500px 1fr;
+        grid-template-columns: 140px 500px 1fr;
         grid-template-areas:
-            ". menu mavesection ."
-            ". menu lugt ."
-            ". menu dead ."
-            ". menu rent ."
-            ". menu mad ."
+            ". mavesection ."
+            ". lugt ."
+            ". dead ."
+            ". rent ."
+            ". mad ."
         ;
     }
     .navbar {
-        height: 100%;
-        width: 100%;
+        height: 250px; /* Full-height: remove this if you want "auto" height */
+        width: 140px; /* Set the width of the sidebar */
+        position: fixed; /*Fixed Sidebar (stay in place on scroll)*/
+        /* z-index: 1; Stay on top */
+        /* top: 0; */
+        left: 0;
+        background-color: #111; /* Black */
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 20px;
     }
     .navbar a {
         width: 100%;
         float: none;
+        display: block;
     }
 }
 /*Slut på responsiv og grid til --tablet-------------------------------------*/
@@ -701,6 +709,7 @@ body {
         height: 50px;
         position: fixed;
         overflow: auto;
+        top: 0;
     }
     .navbar a {
         float: left;
