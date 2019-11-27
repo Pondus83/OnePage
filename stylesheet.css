@@ -35,6 +35,9 @@ body {
 #mad {
     grid-area: mad;
 }
+#menu {
+    grid-area: menu;
+}
 
 /*Mavepinesektion-------------------------------------------------*/
 #mavepine {
@@ -363,6 +366,7 @@ body {
         ". dead ."
         ". rent ."
         ". mad ."
+        ". menu ."
         ;
 }
 
@@ -663,7 +667,7 @@ body {
         display: grid;
         grid-template-columns: 1fr 1050px 1fr;
         grid-template-areas:
-            ". meny ."
+            ". menu ."
             ". mavesection ."
             ". lugt ."
             ". dead ."
@@ -728,35 +732,36 @@ body {
             ". . e_klaus_3"
             ;
     }
-    #menu {
+    /* #menu {
         background-color: black;
         display:grid;
         grid-template-areas:"Pc";
-    }        
+    }         */
     .navbar {
         width: 100%;
         background-color: #555;
         overflow: auto;
-      }
-      .navbar a {
+    }
+    .navbar a {
         float: left;
-        padding: 12px;
+        /* padding: 12px; */
         color: white;
         text-decoration: none;
         font-size: 17px;
-        width: 25%;
-        text-align: center;}
+        width: 20%;
+        text-align: center;
+    }
 
-        .navbar a:hover {
-            background-color: #acaf50;
-        }
-        @media screen and (max-width: 500px;){
-            .navbar {
-                float: none;
-                display: block;
-                width: 100%;
-                text-align: left;
-            }
-        }
+    .navbar a:hover {
+        background-color: #a50202;
+    }
+
+    /* @media screen and (max-width: 500px;){
+        .navbar {
+            float: none;
+            display: block;
+            width: 100%;
+            text-align: left;
+        } */
 }
 /*Slut på responsiv og grid til --PC------------------------------------------*/
