@@ -1,5 +1,11 @@
-/*Header----------------------------------------------------------*/
-h1 {
+/*Tags----------------------------------------------------------*/
+header {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+footer {
     text-align: center;
 }
 
@@ -11,57 +17,53 @@ h1 {
 #lugt {
     grid-area: lugt;
 }
+#dead {
+    grid-area: dead;
+}
+#rent {
+    grid-area: rent;
+}
+#mad {
+    grid-area: mad;
+}
 
 /*Mavepinesektion-------------------------------------------------*/
 #mavepine {
-    text-align: center;
     grid-area: mavepine;
 }
-
 #a_vagn_1 {
     grid-area: a_vagn_1;
 }
-
 #a_vagn_2 {
     grid-area: a_vagn_2;
 }
-
 #a_willy_1 {
     grid-area: a_willy_1;
 }
-
 #a_willy_2 {
     grid-area: a_willy_2;
 }
-
 #a_vagn_billede {
     grid-area: a_vagn_billede;
 }
-
 #a_vagn_navn {
     grid-area: a_vagn_navn;
 }
-
 #a_vagn_kommentar_1 {
     grid-area: a_vagn_kommentar_1;
 }
-
 #a_vagn_kommentar_2 {
     grid-area: a_vagn_kommentar_2;
 }
-
 #a_willy_billede {
     grid-area: a_willy_billede;
 }
-
 #a_willy_navn {
     grid-area: a_willy_navn;
 }
-
 #a_willy_kommentar_1 {
     grid-area: a_willy_kommentar_1;
 }
-
 #a_willy_kommentar_2 {
     grid-area: a_willy_kommentar_2;
 }
@@ -69,7 +71,6 @@ h1 {
 
 /*Dårlig lugt sektion----------------------------------------------------------*/
 #daerlig_lugt {
-    text-align: center;
     grid-area: daerlig_lugt;
 }
 #b_klaus_1 {
@@ -125,6 +126,216 @@ h1 {
 }
 /*End dårlig lugt sektion-----------------------------------------------------*/
 
+/*Dødsfald sektion------------------------------------------------------------*/
+#doedsfald {
+    grid-area: doedsfald;
+}
+#c_elena_1 {
+    grid-area: c_elena_1;
+}
+#c_elijah_1 {
+    grid-area: c_elijah_1;
+}
+#c_elena_2 {
+    grid-area: c_elena_2;
+}
+#c_elijah_2 {
+    grid-area: c_elijah_2;
+}
+#c_elena_3 {
+    grid-area: c_elena_3;
+}
+#c_elena_1_billede {
+    grid-area: c_elena_1_billede;
+}
+#c_elena_1_navn {
+    grid-area: c_elena_1_navn;
+}
+#c_elena_1_kommentar {
+    grid-area: c_elena_1_kommentar;
+}
+#c_elijah_1_billed {
+    grid-area: c_elijah_1_billed;
+}
+#c_elijah_1_navn {
+    grid-area: c_elijah_1_navn;
+}
+#c_elijah_1_kommentar {
+    grid-area: c_elijah_1_kommentar;
+}
+#c_elena_2_billede {
+    grid-area: c_elena_2_billede;
+}
+#c_elena_2navn {
+    grid-area: c_elena_2navn;
+}
+#c_elena_2_kommentar {
+    grid-area: c_elena_2_kommentar;
+}
+#c_elijah_2_billed {
+    grid-area: c_elijah_2_billed;
+}
+#c_elijah_2_navn {
+    grid-area: c_elijah_2_navn;
+}
+#c_elijah_2_kommetar {
+    grid-area: c_elijah_2_kommetar;
+}
+#c_elena_3_billede {
+    grid-area: c_elena_3_billede;
+}
+#c_elena_3_navn {
+    grid-area: c_elena_3_navn;
+}
+#c_elena_3_kommentar {
+    grid-area: c_elena_3_kommentar;
+}
+/*End dødsfald sektion--------------------------------------------------------*/
+
+/*Rent blod sektion------------------------------------------------------------*/
+#rent_blod {
+    grid-area: rent_blod;
+}
+#d_stefan_1 {
+    grid-area: d_stefan_1;
+}
+#d_stefan_1_billede {
+    grid-area: d_stefan_1_billede;
+}
+#d_stefan_1_navn {
+    grid-area: d_stefan_1_navn;
+}
+#d_stefan_1_kommentar {
+    grid-area: d_stefan_1_kommentar;
+}
+#d_damon_1 {
+    grid-area: d_damon_1;
+}
+#d_damon_1_billede {
+    grid-area: d_damon_1_billede;
+}
+#d_damon_1_navn {
+    grid-area: d_damon_1_navn;
+}
+#d_damon_1_kommentar {
+    grid-area: d_damon_1_kommentar;
+}
+#d_caroline_2 {
+    grid-area: d_caroline_2;
+}
+#d_caroline_2_billede {
+    grid-area: d_caroline_2_billede;
+}
+#d_caroline_2_navn {
+    grid-area: d_caroline_2_navn;
+}
+#d_caroline_2_kommentar {
+    grid-area: d_caroline_2_kommentar;
+}
+#d_stefan_2 {
+    grid-area: d_stefan_2;
+}
+#d_stefan_2_billede {
+    grid-area: d_stefan_2_billede;
+}
+#d_stefan_2_navn {
+    grid-area: d_stefan_2_navn;
+}
+#d_stefan_2_kommentar {
+    grid-area: d_stefan_2_kommentar;
+}
+#d_damon_2 {
+    grid-area: d_damon_2;
+}
+#d_damon_2_billede {
+    grid-area: d_damon_2_billede;
+}
+#d_damon_2_navn {
+    grid-area: d_damon_2_navn;
+}
+#d_damon_2_kommentar {
+    grid-area: d_damon_2_kommentar;
+}
+/*End Rent Blod sektion--------------------------------------------------------*/
+
+/*Madforgiftning-----------------------------------------------------------*/
+#madforgiftning {
+    grid-area: madforgiftning;
+}
+#e_damon_3 {
+    grid-area: e_damon_3;
+}
+#e_damon_3_billede {
+    grid-area: e_damon_3_billede;
+}
+#e_damon_3_navn {
+    grid-area: e_damon_3_navn;
+}
+#e_damon_3_kommentar {
+    grid-area: e_damon_3_kommentar;
+}
+#e_elena_4 {
+    grid-area: e_elena_4;
+}
+#e_elena_4_billede {
+    grid-area: e_elena_4_billede;
+}
+#e_elena_4_navn {
+    grid-area: e_elena_4_navn;
+}
+#e_delena_4_kommentar {
+    grid-area: e_delena_4_kommentar;
+}
+#e_damon_4 {
+    grid-area: e_damon_4;
+}
+#e_damon_4_billede {
+    grid-area: e_damon_4_billede;
+}
+#e_damon_4_navn {
+    grid-area: e_damon_4_navn;
+}
+#e_damon_4_kommentar {
+    grid-area: e_damon_4_kommentar;
+}
+#e_caroline_3 {
+    grid-area: e_caroline_3;
+}
+#e_caroline_3_billede {
+    grid-area: e_caroline_3_billede;
+}
+#e_caroline_3_navn {
+    grid-area: e_caroline_3_navn;
+}
+#e_caroline_3_kommentar {
+    grid-area: e_caroline_3_kommentar;
+}
+#e_elijah_3 {
+    grid-area: e_elijah_3;
+}
+#e_elijah_3_billede {
+    grid-area: e_elijah_3_billede;
+}
+#e_elijah_3_navn {
+    grid-area: e_elijah_3_navn;
+}
+#e_elijah_3_kommentar {
+    grid-area: e_elijah_3_kommentar;
+}
+#e_klaus_3 {
+    grid-area: e_klaus_3;
+}
+#e_klaus_3_billede {
+    grid-area: e_klaus_3_billede;
+}
+#e_klaus_3_navn {
+    grid-area: e_klaus_3_navn;
+}
+#e_klaus_3_kommentar {
+    grid-area: e_klaus_3_kommentar;
+}
+/*End Madforgiftning sektion-------------------------------------------------*/
+
 /*-----------Grid til mobil---------------------------------------------------*/
 #hovedgrid {
     display: grid;
@@ -132,8 +343,13 @@ h1 {
     grid-template-areas:
         ". mavesection ."
         ". lugt ."
+        ". dead ."
+        ". rent ."
+        ". mad ."
         ;
 }
+
+/*-----------------Mave-------------------------------------------------------*/
 #mavesection {
     display: grid;
     grid-template-columns: 1fr;
@@ -177,6 +393,9 @@ h1 {
         "a_willy_kommentar_2 a_willy_kommentar_2"
         ;
 }
+/*----------------------End Mave-----------------------------------------------*/
+
+/*-------------------------Lugt------------------------------------------------*/
 #lugt {
     display: grid;
     grid-template-columns: 1fr;
@@ -220,6 +439,181 @@ h1 {
         "b_klaus_2_kommentar b_klaus_2_kommentar"
         ;
 }
+/*-------------------------End Lugt--------------------------------------------*/
+
+/*-------------------------Død-------------------------------------------------*/
+#dead {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "doedsfald"
+        "c_elena_1"
+        "c_elijah_1"
+        "c_elena_2"
+        "c_elijah_2"
+        "c_elena_3"
+        ;
+}
+#c_elena_1 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "c_elena_1_billede c_elena_1_navn"
+        "c_elena_1_kommentar c_elena_1_kommentar"
+        ;
+}
+#c_elijah_1 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "c_elijah_1_billed c_elijah_1_navn"
+        "c_elijah_1_kommentar c_elijah_1_kommentar"
+        ;
+}
+#c_elena_2 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "c_elena_2_billede c_elena_2navn"
+        "c_elena_2_kommentar c_elena_2_kommentar"
+        ;
+}
+#c_elijah_2 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "c_elijah_2_billed c_elijah_2_navn"
+        "c_elijah_2_kommetar c_elijah_2_kommetar"
+        ;
+}
+#c_elena_3 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "c_elena_3_billede c_elena_3_navn"
+        "c_elena_3_kommentar c_elena_3_kommentar"
+        ;
+}
+/*-------------------------End Død---------------------------------------------*/
+
+/*-------------------------Rent blod---------------------------------------*/
+#rent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "rent_blod"
+        "d_stefan_1"
+        "d_damon_1"
+        "d_caroline_2"
+        "d_stefan_2"
+        "d_damon_2"
+        ;
+}
+#d_stefan_1 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "d_stefan_1_billede d_stefan_1_navn"
+        "d_stefan_1_kommentar d_stefan_1_kommentar"
+        ;
+}
+#d_damon_1 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "d_damon_1_billede d_damon_1_navn"
+        "d_damon_1_kommentar d_damon_1_kommentar"
+        ;
+}
+#d_caroline_2 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "d_caroline_2_billede d_caroline_2_navn"
+        "d_caroline_2_kommentar d_caroline_2_kommentar"
+        ;
+}
+#d_stefan_2 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "d_stefan_2_billede d_stefan_2_navn"
+        "d_stefan_2_kommentar d_stefan_2_kommentar"
+        ;
+}
+#d_damon_2 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "d_damon_2_billede d_damon_2_navn"
+        "d_damon_2_kommentar d_damon_2_kommentar"
+        ;
+}
+/*-------------------------End Rent Blod-----------------------------------*/
+
+/*-------------------------Madforgiftning----------------------------------*/
+#mad {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "madforgiftning"
+        "e_damon_3"
+        "e_elena_4"
+        "e_damon_4"
+        "e_caroline_3"
+        "e_elijah_3"
+        "e_klaus_3"
+        ;
+}
+#e_damon_3 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "e_damon_3_billede e_damon_3_navn"
+        "e_damon_3_kommentar e_damon_3_kommentar"
+        ;
+}
+#e_elena_4 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "e_elena_4_billede e_elena_4_navn"
+        "e_delena_4_kommentar e_delena_4_kommentar"
+        ;
+}
+#e_damon_4 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "e_damon_4_billede e_damon_4_navn"
+        "e_damon_4_kommentar e_damon_4_kommentar"
+        ;
+}
+#e_caroline_3 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "e_caroline_3_billede e_caroline_3_navn"
+        "e_caroline_3_kommentar e_caroline_3_kommentar"
+        ;
+}
+#e_elijah_3 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "e_elijah_3_billede e_elijah_3_navn"
+        "e_elijah_3_kommentar e_elijah_3_kommentar"
+        ;
+}
+#e_klaus_3 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-areas:
+        "e_klaus_3_billede e_klaus_3_navn"
+        "e_klaus_3_kommentar e_klaus_3_kommentar"
+        ;
+}
+/*-------------------------End Madforgiftning------------------------------*/
 /*-----------Slut på grid til mobil----------------------------------------*/
 
 
