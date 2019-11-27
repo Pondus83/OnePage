@@ -618,22 +618,26 @@ footer {
 
 
 /*Start på responsiv og grid til --tablet-----------------------------------*/
-/* @media screen and (min-width: 650px) {
+@media screen and (min-width: 680px) {
 
     body {
         background-color: blue;
     }
-
+    h2 {
+        text-align: left;
+    }
     #hovedgrid {
         display: grid;
-        grid-template-columns: 1fr 70px 540px 1fr;
+        grid-template-columns: 1fr 150px 500px 1fr;
         grid-template-areas:
             ". meny mavesection ."
-            ;
+            ". meny lugt ."
+            ". meny dead ."
+            ". meny rent ."
+            ". meny mad ."
+        ;
     }
-
-    
-} */
+}
 /*Slut på responsiv og grid til --tablet-------------------------------------*/
 
 /*Start på responsiv og grid til --PC----------------------------------------*/
