@@ -359,6 +359,7 @@ body {
     padding: 20px;
     margin: 20px;
 }
+/*----------------Navigatin-------------------------------------------------*/
 .navbar {
     width: 100%;
     background-color: black;
@@ -377,8 +378,7 @@ body {
     background-color: #a50202;
     color: black;
 }
-
-/*-----------End Grid reset---------------------------------------------------*/
+/*-----------End Grid reset og navigation-----------------------------------*/
 
 /*-----------Grid til mobil---------------------------------------------------*/
 #hovedgrid {
@@ -393,7 +393,18 @@ body {
         ". menu ."
         ;
 }
-
+.navbar a {
+    float: top;
+}
+.navbar a {
+    float: left;
+    padding: 12px 0px 12px 0px;
+    color: #a50202;
+    text-decoration: none;
+    font-size: 17px;
+    width: 18%;
+    text-align: center;
+}
 /*-----------------Mave-------------------------------------------------------*/
 #mavesection {
     display: grid;
@@ -686,6 +697,9 @@ body {
         text-align: left;
         padding: 10px;
         margin: 10px;
+    }
+    .navbar a {
+        float: left;
     }
     #hovedgrid {
         display: grid;
