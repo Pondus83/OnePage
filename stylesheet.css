@@ -7,6 +7,7 @@ h2 {
 }
 footer {
     text-align: center;
+    grid-area: footer;
 }
 body {
     /* background-color: #d1ccc6; */
@@ -17,6 +18,11 @@ body {
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+}
+#a_vagn_1, #a_willy_1, #a_vagn_2, #a_willy_2, #b_klaus_1, #b_edward, #b_caroline, #b_klaus_2, #c_elena_1, #c_elijah_1, #c_elena_2, #c_elijah_2, #c_elena_3, #d_stefan_1, #d_damon_1, #d_caroline_2, #d_stefan_2, #d_damon_2, #e_damon_3, #e_damon_3, #e_elena_4, #e_damon_4, #e_caroline_3, #e_elijah_3, #e_klaus_3, footer {
+    background: radial-gradient(#a50202 25%, transparent 70%);
+    padding: 10px;
+    margin: 10px;
 }
 
 /*Hovedgrid-------------------------------------------------------*/
@@ -353,6 +359,24 @@ body {
     padding: 20px;
     margin: 20px;
 }
+.navbar {
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+}
+.navbar a {
+    float: left;
+    padding: 12px 0px 12px 0px;
+    color: #a50202;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #a50202;
+    color: black;
+}
 
 /*-----------End Grid reset---------------------------------------------------*/
 
@@ -646,11 +670,11 @@ body {
         display: grid;
         grid-template-columns: 1fr 150px 500px 1fr;
         grid-template-areas:
-            ". meny mavesection ."
-            ". meny lugt ."
-            ". meny dead ."
-            ". meny rent ."
-            ". meny mad ."
+            ". menu mavesection ."
+            ". menu lugt ."
+            ". menu dead ."
+            ". menu rent ."
+            ". menu mad ."
         ;
     }
 }
@@ -677,11 +701,6 @@ body {
     }
     #mavesection, #lugt, #dead, #rent, #mad {
         grid-template-columns: 450px 1fr 450px;
-    }
-    #a_vagn_1, #a_willy_1, #a_vagn_2, #a_willy_2, #b_klaus_1, #b_edward, #b_caroline, #b_klaus_2, #c_elena_1, #c_elijah_1, #c_elena_2, #c_elijah_2, #c_elena_3, #d_stefan_1, #d_damon_1, #d_caroline_2, #d_stefan_2, #d_damon_2, #e_damon_3, #e_damon_3, #e_elena_4, #e_damon_4, #e_caroline_3, #e_elijah_3, #e_klaus_3 {
-        background: radial-gradient(#a50202 25%, transparent 70%);
-        padding: 10px;
-        margin: 10px;
     }
     #mavesection {
         display: grid;
@@ -732,36 +751,6 @@ body {
             ". . e_klaus_3"
             ;
     }
-    /* #menu {
-        background-color: black;
-        display:grid;
-        grid-template-areas:"Pc";
-    }         */
-    .navbar {
-        width: 100%;
-        background-color: #555;
-        overflow: auto;
-    }
-    .navbar a {
-        float: left;
-        /* padding: 12px; */
-        color: white;
-        text-decoration: none;
-        font-size: 17px;
-        width: 20%;
-        text-align: center;
-    }
 
-    .navbar a:hover {
-        background-color: #a50202;
-    }
-
-    /* @media screen and (max-width: 500px;){
-        .navbar {
-            float: none;
-            display: block;
-            width: 100%;
-            text-align: left;
-        } */
 }
 /*Slut på responsiv og grid til --PC------------------------------------------*/
