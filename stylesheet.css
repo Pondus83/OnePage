@@ -338,10 +338,8 @@ footer {
 
 /*-----------Grid reset---------------------------------------------------*/
 #mavesection, #lugt, #dead, #rent, #mad {
-    border-style: solid;
-    border-width: 7px;
-    margin: 20px;
     padding: 20px;
+    margin: 20px;
 }
 
 /*-----------End Grid reset---------------------------------------------------*/
