@@ -7,7 +7,6 @@ h2 {
 }
 footer {
     text-align: center;
-    grid-area: footer;
 }
 body {
     /* background-color: #d1ccc6; */
@@ -19,8 +18,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-#a_vagn_1, #a_willy_1, #a_vagn_2, #a_willy_2, #b_klaus_1, #b_edward, #b_caroline, #b_klaus_2, #c_elena_1, #c_elijah_1, #c_elena_2, #c_elijah_2, #c_elena_3, #d_stefan_1, #d_damon_1, #d_caroline_2, #d_stefan_2, #d_damon_2, #e_damon_3, #e_damon_3, #e_elena_4, #e_damon_4, #e_caroline_3, #e_elijah_3, #e_klaus_3, footer {
-    background: radial-gradient(#a50202 25%, transparent 70%);
+#a_vagn_1, #a_willy_1, #a_vagn_2, #a_willy_2, #b_klaus_1, #b_edward, #b_caroline, #b_klaus_2, #c_elena_1, #c_elijah_1, #c_elena_2, #c_elijah_2, #c_elena_3, #d_stefan_1, #d_damon_1, #d_caroline_2, #d_stefan_2, #d_damon_2, #e_damon_3, #e_damon_3, #e_elena_4, #e_damon_4, #e_caroline_3, #e_elijah_3, #e_klaus_3, footer, h2 {
+    background: radial-gradient(#a50202, transparent 70%);
     padding: 10px;
     margin: 10px;
 }
@@ -371,7 +370,7 @@ body {
     color: #a50202;
     text-decoration: none;
     font-size: 17px;
-    width: 20%;
+    width: 18%;
     text-align: center;
 }
 .navbar a:hover {
@@ -395,15 +394,6 @@ body {
 }
 .navbar a {
     float: top;
-}
-.navbar a {
-    float: left;
-    padding: 12px 0px 12px 0px;
-    color: #a50202;
-    text-decoration: none;
-    font-size: 17px;
-    width: 18%;
-    text-align: center;
 }
 /*-----------------Mave-------------------------------------------------------*/
 #mavesection {
@@ -688,6 +678,14 @@ body {
             ". menu mad ."
         ;
     }
+    .navbar {
+        height: 100%;
+        width: 100%;
+    }
+    .navbar a {
+        width: 100%;
+        float: none;
+    }
 }
 /*Slut på responsiv og grid til --tablet-------------------------------------*/
 
@@ -698,8 +696,12 @@ body {
         padding: 10px;
         margin: 10px;
     }
+    .navbar {
+        width: 100%;
+    }
     .navbar a {
         float: left;
+        width: 20%;
     }
     #hovedgrid {
         display: grid;
