@@ -6,16 +6,12 @@ header {
 h2 {
     text-align: center;
     font-family: "CHILLER";
-    font-size: 40px;
 }
 body {
     background: linear-gradient(#a50202 50%, black 95%);
     background-attachment: fixed;
     font-family: "CHILLER";
-    font-size: 30px;
-    /*  */
     /* background: radial-gradient(url(baggrund.JPG) 70%, transparent 75%); */
-    /*  */
     /* background-size: 100%; */
 }
 #a_vagn_1, #a_willy_1, #a_vagn_2, #a_willy_2, #b_klaus_1, #b_edward, #b_caroline, #b_klaus_2, #c_elena_1, #c_elijah_1, #c_elena_2, #c_elijah_2, #c_elena_3, #d_stefan_1, #d_damon_1, #d_caroline_2, #d_stefan_2, #d_damon_2, #e_damon_3, #e_damon_3, #e_elena_4, #e_damon_4, #e_caroline_3, #e_elijah_3, #e_klaus_3, footer, h2 {
@@ -29,7 +25,9 @@ footer {
 }
 p {
     font-family:"Argaila Regular";
-    font-size: 20px;
+}
+header img {
+    height: "50px";
 }
 /*Hovedgrid-------------------------------------------------------*/
 #mavesection {
@@ -379,7 +377,7 @@ p {
     padding: 12px 0px 12px 0px;
     color: #a50202;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 17px;
     width: 20%;
     text-align: center;
 }
@@ -700,7 +698,7 @@ p {
         float: left;
     }
     body {
-        background-image: url(Nybaggrund3.jpg);
+        background-image: url("nybaggrund3.jpg");
         background-color: #8c785e;
         background-position: center;
         background-repeat: no-repeat;
