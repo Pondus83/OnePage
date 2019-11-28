@@ -13,6 +13,7 @@ body {
     font-family: "CHILLER";
     /* background: radial-gradient(url(baggrund.JPG) 70%, transparent 75%); */
     /* background-size: 100%; */
+    text-align: justify;
 }
 #a_vagn_1, #a_willy_1, #a_vagn_2, #a_willy_2, #b_klaus_1, #b_edward, #b_caroline, #b_klaus_2, #c_elena_1, #c_elijah_1, #c_elena_2, #c_elijah_2, #c_elena_3, #d_stefan_1, #d_damon_1, #d_caroline_2, #d_stefan_2, #d_damon_2, #e_damon_3, #e_damon_3, #e_elena_4, #e_damon_4, #e_caroline_3, #e_elijah_3, #e_klaus_3, footer, h2 {
     background: radial-gradient(#a50202, transparent 70%);
