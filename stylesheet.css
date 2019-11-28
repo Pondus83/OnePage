@@ -1,13 +1,16 @@
 /*Tags----------------------------------------------------------*/
 header {
     text-align: center;
+    font-family: "CHILLER";
 }
 h2 {
     text-align: center;
+    font-family: "CHILLER";
 }
 body {
     background: linear-gradient(#a50202 50%, black 95%);
     background-attachment: fixed;
+    font-family: "CHILLER";
     /*  */
     /* background: radial-gradient(url(baggrund.JPG) 70%, transparent 75%); */
     /*  */
@@ -21,6 +24,9 @@ body {
 footer {
     text-align: center;
     margin: 20px;
+}
+p {
+    font-family:"Argaila Regular"
 }
 /*Hovedgrid-------------------------------------------------------*/
 #mavesection {
