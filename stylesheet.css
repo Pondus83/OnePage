@@ -6,11 +6,13 @@ header {
 h2 {
     text-align: center;
     font-family: "CHILLER";
+    font-size: 40px;
 }
 body {
     background: linear-gradient(#a50202 50%, black 95%);
     background-attachment: fixed;
     font-family: "CHILLER";
+    font-size: 30px;
     /*  */
     /* background: radial-gradient(url(baggrund.JPG) 70%, transparent 75%); */
     /*  */
@@ -26,7 +28,8 @@ footer {
     margin: 20px;
 }
 p {
-    font-family:"Argaila Regular"
+    font-family:"Argaila Regular";
+    font-size: 20px;
 }
 /*Hovedgrid-------------------------------------------------------*/
 #mavesection {
@@ -376,7 +379,7 @@ p {
     padding: 12px 0px 12px 0px;
     color: #a50202;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
     width: 20%;
     text-align: center;
 }
