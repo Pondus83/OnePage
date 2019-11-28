@@ -6,11 +6,13 @@ header {
 h2 {
     text-align: center;
     font-family: "CHILLER";
+    font-size: 40px;
 }
 body {
     background: linear-gradient(#a50202 50%, black 95%);
     background-attachment: fixed;
     font-family: "CHILLER";
+    font-size: 30px;
     /* background: radial-gradient(url(baggrund.JPG) 70%, transparent 75%); */
     /* background-size: 100%; */
 }
@@ -22,9 +24,11 @@ body {
 footer {
     text-align: center;
     margin: 20px;
+    font-size: 30px;
 }
 p {
     font-family:"Argaila Regular";
+    font-size: 22px;
 }
 /*Hovedgrid-------------------------------------------------------*/
 #mavesection {
